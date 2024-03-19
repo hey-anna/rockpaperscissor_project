@@ -1,0 +1,28 @@
+/* .box {
+  border: 1px solid black;
+  width: 300px;
+} */
+
+.box {
+  width: 300px;
+}
+
+.border-win {
+  border: 2px solid blue;
+}
+
+.border-lose {
+  border: 2px solid red;
+}
+
+.border-tie {
+  border: 2px solid green;
+}
+
+.item-img {
+  width: 200px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
