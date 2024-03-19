@@ -4,25 +4,39 @@
 } */
 
 .box {
-  width: 300px;
+  width: 500px;
+  border: 2px solid #000;
+  height: 600px;
+  text-align: center;
 }
 
 .border-win {
+  width: 500px;
   border: 2px solid blue;
+  height: 600px;
 }
 
 .border-lose {
+  width: 500px;
   border: 2px solid red;
+  height: 600px;
 }
 
 .border-tie {
+  width: 500px;
   border: 2px solid green;
+  height: 600px;
 }
 
 .item-img {
-  width: 200px;
+  width: 400px;
 }
 .main {
   display: flex;
   justify-content: center;
+}
+
+.buttonSx {
+  margin: 16px 8px;
+  padding: 20px;
 }

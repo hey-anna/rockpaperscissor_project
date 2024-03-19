@@ -145,9 +145,15 @@ function App() {
         />
       </div>
       <div className="main">
-        <button onClick={() => play("scissors")}>가위</button>
-        <button onClick={() => play("rock")}>바위</button>
-        <button onClick={() => play("paper")}>보</button>
+        <button className="buttonSx" onClick={() => play("scissors")}>
+          가위
+        </button>
+        <button className="buttonSx" onClick={() => play("rock")}>
+          바위
+        </button>
+        <button className="buttonSx" onClick={() => play("paper")}>
+          보
+        </button>
       </div>
     </>
   );
